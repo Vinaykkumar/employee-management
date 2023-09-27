@@ -1,5 +1,5 @@
 # Use an official OpenJDK runtime as a parent image
-FROM adoptopenjdk/openjdk17:jre-17.0.0.36_adopt
+FROM openjdk:11
 
 # Set the working directory to /app
 WORKDIR /
